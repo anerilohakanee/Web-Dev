@@ -1,0 +1,448 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+<style>
+    #hi{
+        color:black;
+        background-color: mediumseagreen;
+    }
+    *{
+        background-color: aliceblue;
+    }
+    #bye{
+        color: red;
+    }
+</style>
+
+<body>
+    <h1 align = "center">Registration Form</h1>
+    
+    <form action = submit.html target="_blank">
+
+        <fieldset>
+            <legend><h2>Personal Details</h2></legend><br>
+
+        <label for = "name"><b>First Name</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text"  required><br><br>
+        
+        <label for = "name"><b>Middle Name</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text" required><br><br>
+
+        <label for = "name"><b>Last Name</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text" required><br><br>
+
+        <label for = "name"><b>University Registration No</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text"  required><br><br>
+
+        <label for = "name"><b>Student email</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "email" required><br><br>
+
+        <label for = "name"><b>Primary Contact Number</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text"  maxlength="10" required><br><br>
+
+        <label for = "name"><b>Alternate Mobile Number</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text"  maxlength="10" required><br><br>
+
+        <label for = "name"><b>Date Of Birth - (DD/MM/YYYY)</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "date" required><br><br>
+
+        <label for = "name"><b>Residing State</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <select id = "State">
+        <option value = ""></option>
+        <option value = "">Andhra Pradesh</option>
+        <option value = "">Arunachal Pradesh</option>
+        <option value = "">Assam</option>
+        <option value = "">Bihar</option>
+        <option value = "">Chattisgarh</option>
+        <option value = "">Delhi</option>
+        <option value = "">Dadar & Nagar Havali</option>
+        <option value = "">Goa</option>
+        <option value = "">Gujarat</option>
+        <option value = "">Himachal Pradesh</option>
+        <option value = "">Haryana</option>
+        <option value = "">Jharkhand</option>
+        <option value = "">Jammu & Kashmir</option>
+        <option value = "">Karnataka</option>
+        <option value = "">Kerala</option>
+        <option value = "">Lakshadweep</option>
+        <option value = "">Meghalaya</option>
+        <option value = "">Maharashtra</option>
+        <option value = "">Manipur</option>
+        <option value = "">Madhya Pradesh</option>
+        <option value = "">Mizoram</option>
+        <option value = "">Nagaland</option>
+        <option value = "">Orissa</option>
+        <option value = "">Punjab</option>
+        <option value = "">Rajasthan</option>
+        <option value = "">Sikkim</option>
+        <option value = "">Tamilnadu</option>
+        <option value = "">Tripura</option>
+        <option value = "">Uttrakhand</option>
+        <option value = "">Uttar Pradesh</option>
+        <option value = "">West Bengal</option>
+        </select><br><br>
+
+        <label for = "name"><b>Gender</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "radio" name = "gender">Male<br>    
+        <input type = "radio" name = "gender">female<br>
+        <input type = "radio" name = "gender">Other<br><br>
+
+    </fieldset><br>
+
+    <fieldset>
+        <label for = "name"><h2>Address Details</h2></label><br>
+
+        <fieldset>
+            <legend><b>Current Address</b></legend><br>
+
+        <label for = "name"><b>Address Line 1</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <textarea required></textarea><br><br>
+
+        <label for = "name"><b>Pincode</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text" maxlength="6" required><br><br>
+
+        <label for = "name"><b>City</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <select id = "City">
+        <option value = ""></option>
+        <option value = "">MUMBAI</option>
+        <option value = "">DELHI</option>
+        <option value = "">BENGALURU</option>
+        <option value = "">PUNE</option>
+        <option value = "">KOLKATA</option>
+        <option value = "">CHENNAI</option>
+        <option value = "">AHMEDABAD</option>
+        <option value = "">HYDERABAD</option>
+        <option value = "">VADODARA</option>
+        <option value = "">JAIPUR</option>
+        <option value = "">SURAT</option>
+        <option value = "">LUCKNOW</option>
+        <option value = "">UDAIPUR</option>
+        <option value = "">KANPUR</option>
+        <option value = "">NASHIK</option>
+        <option value = "">NAGPUR</option>
+        <option value = "">LUDHIANA</option>
+        <option value = "">COIMBATORE</option>
+        <option value = "">INDORE</option>
+        <option value = "">CHANDIGARH</option>
+        <option value = "">BHOPAL</option>
+        <option value = "">PATNA</option>
+        <option value = "">RAJKOT</option>
+        <option value = "">RAIPUR</option>
+        <option value = "">GUWAHATI</option>
+        <option value = "">BHUBANESHWAR</option>
+        <option value = "">JAMSHEDPUR</option>
+        <option value = "">DEHRADUN</option>
+        <option value = "">AHILYANAGAR</option>
+        <option value = "">SAMBHAJINAGAR</option>
+    </select><br><br>
+
+    <label for = "name"><b>State</b></label>
+    <label for = "name" id = "bye"><b>*</b></label><br>
+    <select id = "State">
+        <option value = ""></option>
+        <option value = "">Andhra Pradesh</option>
+        <option value = "">Arunachal Pradesh</option>
+        <option value = "">Assam</option>
+        <option value = "">Bihar</option>
+        <option value = "">Chattisgarh</option>
+        <option value = "">Delhi</option>
+        <option value = "">Dadar & Nagar Havali</option>
+        <option value = "">Goa</option>
+        <option value = "">Gujarat</option>
+        <option value = "">Himachal Pradesh</option>
+        <option value = "">Haryana</option>
+        <option value = "">Jharkhand</option>
+        <option value = "">Jammu & Kashmir</option>
+        <option value = "">Karnataka</option>
+        <option value = "">Kerala</option>
+        <option value = "">Lakshadweep</option>
+        <option value = "">Meghalaya</option>
+        <option value = "">Maharashtra</option>
+        <option value = "">Manipur</option>
+        <option value = "">Madhya Pradesh</option>
+        <option value = "">Mizoram</option>
+        <option value = "">Nagaland</option>
+        <option value = "">Orissa</option>
+        <option value = "">Punjab</option>
+        <option value = "">Rajasthan</option>
+        <option value = "">Sikkim</option>
+        <option value = "">Tamilnadu</option>
+        <option value = "">Tripura</option>
+        <option value = "">Uttrakhand</option>
+        <option value = "">Uttar Pradesh</option>
+        <option value = "">West Bengal</option>
+        </select><br><br>
+
+        <label for = "name"><b>Country</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <select id = "Country">
+            <option value = ""></option>
+            <option value = "">India</option>
+        </select><br><br>
+        </fieldset>
+       
+    <fieldset>
+        <legend><b>Permanent Address</b></legend><br>
+
+        <label for = "name"><b>Address Line 1</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <textarea required></textarea><br><br>
+
+        <label for = "name"><b>Pincode</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <input type = "text" maxlength="6" required><br><br>
+
+        <label for = "name"><b>City</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <select id = "City">
+        <option value = ""></option>
+        <option value = "">MUMBAI</option>
+        <option value = "">DELHI</option>
+        <option value = "">BENGALURU</option>
+        <option value = "">PUNE</option>
+        <option value = "">KOLKATA</option>
+        <option value = "">CHENNAI</option>
+        <option value = "">AHMEDABAD</option>
+        <option value = "">HYDERABAD</option>
+        <option value = "">VADODARA</option>
+        <option value = "">JAIPUR</option>
+        <option value = "">SURAT</option>
+        <option value = "">LUCKNOW</option>
+        <option value = "">UDAIPUR</option>
+        <option value = "">KANPUR</option>
+        <option value = "">NASHIK</option>
+        <option value = "">NAGPUR</option>
+        <option value = "">LUDHIANA</option>
+        <option value = "">COIMBATORE</option>
+        <option value = "">INDORE</option>
+        <option value = "">CHANDIGARH</option>
+        <option value = "">BHOPAL</option>
+        <option value = "">PATNA</option>
+        <option value = "">RAJKOT</option>
+        <option value = "">RAIPUR</option>
+        <option value = "">GUWAHATI</option>
+        <option value = "">BHUBANESHWAR</option>
+        <option value = "">JAMSHEDPUR</option>
+        <option value = "">DEHRADUN</option>
+        <option value = "">AHILYANAGAR</option>
+        <option value = "">SAMBHAJINAGAR</option>
+    </select><br><br>
+
+    <label for = "name"><b>State</b></label>
+    <label for = "name" id = "bye"><b>*</b></label><br>
+    <select id = "State">
+        <option value = ""></option>
+        <option value = "">Andhra Pradesh</option>
+        <option value = "">Arunachal Pradesh</option>
+        <option value = "">Assam</option>
+        <option value = "">Bihar</option>
+        <option value = "">Chattisgarh</option>
+        <option value = "">Delhi</option>
+        <option value = "">Dadar & Nagar Havali</option>
+        <option value = "">Goa</option>
+        <option value = "">Gujarat</option>
+        <option value = "">Himachal Pradesh</option>
+        <option value = "">Haryana</option>
+        <option value = "">Jharkhand</option>
+        <option value = "">Jammu & Kashmir</option>
+        <option value = "">Karnataka</option>
+        <option value = "">Kerala</option>
+        <option value = "">Lakshadweep</option>
+        <option value = "">Meghalaya</option>
+        <option value = "">Maharashtra</option>
+        <option value = "">Manipur</option>
+        <option value = "">Madhya Pradesh</option>
+        <option value = "">Mizoram</option>
+        <option value = "">Nagaland</option>
+        <option value = "">Orissa</option>
+        <option value = "">Punjab</option>
+        <option value = "">Rajasthan</option>
+        <option value = "">Sikkim</option>
+        <option value = "">Tamilnadu</option>
+        <option value = "">Tripura</option>
+        <option value = "">Uttrakhand</option>
+        <option value = "">Uttar Pradesh</option>
+        <option value = "">West Bengal</option>
+        </select><br><br>
+
+        <label for = "name"><b>Country</b></label>
+        <label for = "name" id = "bye"><b>*</b></label><br>
+        <select id = "Country">
+            <option value = ""></option>
+            <option value = "">India</option>
+        </select><br><br>
+        </fieldset><br>
+        </fieldset>
+
+        <label for = "name"><h2>Educational Details</h2></label><br>
+        <fieldset>
+            <legend><b>Highest Education Profile</b></legend><br>
+
+            <label for = "name"><b>Education Type</b></label>
+            <label for = "name" id = "bye"><b>*</b></label><br>
+             <select id = "Education Type">
+                <option value = "">-Select-</option>
+                <option value = "">Post Graduate/Dual Degree</option>
+                <option value = "">Under Graduate</option>
+            </select><br><br>
+
+            <label for = "name"><b>Degree</b></label>
+            <label for = "name" id = "bye"><b>*</b></label><br>
+            <select id = "Degree" required>
+               <option value = "">-Select-</option>
+               <option value = "">BE/B.Tech</option>
+               <option value = "">B.com</option>
+               <option value = "">BCA</option>
+               <option value = "">BBA</option>
+               <option value = "">BSC</option>
+               <option value = "">MBA</option>
+               <option value = "">M.com</option>
+               <option value = "">MCA</option>
+               <option value = "">B.FA</option>
+               <option value = "">B.Pharma</option>
+               <option value = "">M.Tech</option>
+               <option value = "">Bachelors of Arts</option>
+               <option value = "">BMS</option>
+           </select><br><br>
+
+           
+           <label for = "name"><b>College</b></label>
+           <label for = "name" id = "bye"><b>*</b></label><br>
+           <select id = "College" required>
+              <option value = "">-Select-</option>
+              <option value = "">PICT Pune - Pune Institute of Computer Technology - Pune</option>
+              <option value = "">VIT Pune - Vishwakarma Institute of Technology - Pune</option>
+              <option value = "">TSEC Mumbai - Thadomal Shahani Engineering College - Mumbai</option>
+              <option value = "">VIIT Pune - Vishwakarma Institute Of Information Technology - Pune</option>
+              <option value = "">VESIT Mumbai - Vivekanand Education Society's Institute of Technology, Chembur - Mumbai</option>
+              <option value = "">PCCOE Pune - Pimpri Chinchwad college of engineering, Pune</option>
+              <option value = "">SVKM NMIMS Mumbai - Mukesh Patel School of Technology Management & Engineering, Mumbai</option>
+              <option value = "">WCE Sangli - Walchand College of Engineering, Sangli</option>
+              <option value = "">RCOEM Nagpur - Shri Ramdeobaba College of Engineering & Management, Nagpur</option>
+              <option value = "">LD College Ahmedabad - Lalbhai Dalpatbhai College of Engineering - Ahmedabad</option>
+              <option value = "">MITS Gwalior - Madhav Institute of Technology and Science</option>
+              <option value = "">SFIT Mumbai - St. Francis Institute of Technology - Mumbai</option>
+              <option value = "">BVDUCOE Pune - Bharati Vidyapeeth Deemed University College of Engineering- Pune</option>
+              <option value = "">VIT Wadala - Vidyalankar Institute of Technology - Wadala</option>
+              <option value = "">LNCT Bhopal - Lakshmi Narain College of Technology - Bhopal</option>
+              <option value = "">SKNSITS Lonavala - SKN Sinhgad Institute Of Technology and Science - Lonaval</option>
+              <option value = "">SIT Pune - Sinhgad Academy of Engineering, Kondhwa(SAE)</option>
+              <option value = "">Zeal college of engineering and research-Pune</option>
+              <option value = "">SCE Kopargaon - Sanjivani College of Engineering - Kopargaon</option>
+              <option value = "">Dr. Vishwanath Karad MIT World Peace University , Pune</option>
+              <option value = "">PCCOER Pune - Pimpri Chinchwad College Of Engineering and Research - Pune</option>
+          </select><br><br>
+
+          <label for = "name"><b>Branch</b></label>
+          <label for = "name" id = "bye"><b>*</b></label><br>
+          <select id = "Branch" required>
+             <option value = "">-Select-</option>
+             <option value = "">Advanced Manufacturing Systems</option>
+             <option value = "">Advanced Manufacturing and Mechanical Systems Design</option>
+             <option value = "">Advertisement and Public relation</option>
+             <option value = "">Aero Space Engineering</option>
+             <option value = "">Aeronautical Engineering</option>
+             <option value = "">Agricultural Engineering</option>
+             <option value = "">Applied Electronics</option>
+             <option value = "">Applied Electronics and Instrumentation Engineering</option>
+             <option value = "">Artificial Intelligence and Data Science</option>
+             <option value = "">Artificial Intelligence and Machine Learning</option>
+             <option value = "">Artificial Intelligence and Robotics</option>
+             <option value = "">Automobile Engineering</option>
+             <option value = "">Cloud Computing & Virtualization</option>
+             <option value = "">Civil Engineering</option>
+             <option value = "">Cloud Computing and DevOps</option>
+             <option value = "">Cloud Computing</option>
+             <option value = "">Computer Science and Engineering (CSE)</option>
+             <option value = "">Computer Science and Information Technology</option>
+             <option value = "">Big Data and Data Analytics</option>
+             <option value = "">Biomedical Engineering</option>
+             <option value = "">Cyber Security</option>
+             <option value = "">Biometrics and Cyber Security</option>
+             <option value = "">DevOps Automation and Cloud Computing</option>
+             <option value = "">Electrical and Electronics Engineering</option>
+             <option value = "">Electronics and Communication Engineering (ECE)</option>
+             <option value = "">Design & Dynamics</option>
+             <option value = "">Fashion and Apparel Engineering</option>
+             <option value = "">Software Engineering</option>
+             <option value = "">Computer Science & Software Engineering</option>
+             <option value = "">Embedded and Real Time Systems</option>
+             <option value = "">Electrical and Electronics Engineering</option>
+             <option value = "">Mechanical Engineering</option>
+             
+         </select><br><br>
+
+         <label for = "name"><b>Date of Starting</b></label>
+         <label for = "name" id = "bye"><b>*</b></label><br>
+         <input type = "date" required><br><br>
+
+         <label for = "name"><b>Date of Ending</b></label>
+         <label for = "name" id = "bye"><b>*</b></label><br>
+         <input type = "date" required><br><br>
+
+         <label for = "name"><b>Percentage/CGPA</b></label>
+         <label for = "name" id = "bye"><b>*</b></label><br>
+         <input type = "text" required><br><br>
+            </fieldset>
+
+                <fieldset>
+                    <legend><b>Skill Details</b></legend><br>
+                    <select id = "Skill Details" required>
+                        <option value = "">-Select-</option>
+                        <option value = "">Java</option>
+                        <option value = "">Python</option>
+                        <option value = "">.Net</option>
+                        <option value = "">Machine Learning</option>
+                        <option value = "">IOT</option>
+                        <option value = "">HTML,CSS</option>
+                        <option value = "">JavaScrip, jQuery, Bootstrap</option>
+                        <option value = "">Git</option>
+                        <option value = "">Cyber Security</option>
+                        <option value = "">Flutter</option>
+                        <option value = "">Rubby</option>
+                        <option value = "">C,C++</option>
+                        <option value = "">Java Full Stack</option>
+                        <option value = "">DSA</option>
+                        <option value = "">SpringBoot</option>
+                        <option value = "">pHp</option>
+                        <option value = "">React Js</option>
+                        <option value = "">MySQL</option>
+                        <option value = "">Data Management</option>
+                        <option value = "">Data Science</option>
+                        </select><br><br>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><b>Attachments</b></legend><br>
+                            <label for = "name"><b>Resume/CV</b>(Supported Format: .doc/.docx/.pdf; Max size: 1 MB)</label>
+                            <label for = "name" id = "bye"><b>*</b></label><br>
+                            <input type="file" required><br><br>
+
+                            <label for = "name"><b>Passport size photograph</b>(Supported Format: jpg, jpeg, png.; Max size: 3 MB) Uploaded passport size photograph should be latest (Not older than 2 months)</label>
+                            <label for = "name" id = "bye"><b>*</b></label><br>
+                            <input type="file" required><br><br>
+                            </fieldset><br>
+
+                            <input type = "Submit" id = "hi">
+                            <input type = "button" value="Cancel" id = "hi">
+    </form>
+
+
+</body>
+</html>
